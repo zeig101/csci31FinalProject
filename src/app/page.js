@@ -3,18 +3,26 @@ import Navbar from './components/Navbar'
 import PageTitle from './components/PageTitle'
 import PageContent from './components/PageContent'
 import Card from './components/Card'
+import { createClient } from '@supabase/supabase-js'
 
-export default function Home() {
+// Create a single supabase client for interacting with your database
+const supabase = createClient('https://ukgjmfseegaegzadqpuw.supabase.co', process.env.SUPABASE_SECRET)
+
+export const revalidate = 0
+
+export default async function Home() {
+  const { data: cards, error } = await supabase.from('cards').select('*')
+
   return (
     <div>
       <Navbar />
       <div className="m-12">
         <PageTitle title="Home" />
         <PageContent />
-        <div class="flex gap-6 my-6 flex-wrap">
-          <Card title="My First Card" subtitle="My First Subtitle" description="My First Description" />
-          <Card title="My Second Card" subtitle="My Second Subtitle" description="My Second Description" />
-          <Card title="My Third Card" subtitle="My Third Subtitle" description="My ThirdDescription" />
+        <div className="flex gap-6 my-6 flex-wrap">
+          {cards.map((card, idx) => (
+            <Card key={idx} title={card.title} subtitle={card.subtitle} description={card.description} />
+          ))}
         </div>
       </div>
     </div>
