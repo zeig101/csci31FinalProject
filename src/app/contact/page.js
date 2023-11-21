@@ -8,8 +8,8 @@ export default function About() {
     <div>
       <Navbar />
       <div className="m-12">
-        <PageTitle title="Contact" />
-        <PageContent content="This is content for the page. 555-5555" />
+        <PageTitle title="Opinions" />
+        <PageContent content="You shouldn't be buying an Nvidia graphics card unless you're going for the absolute top of the line, like the RTX 4080/4090. You get better price:performance from AMD." />
       </div>
     </div>
   )

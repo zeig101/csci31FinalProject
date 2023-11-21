@@ -8,7 +8,7 @@ export default function About() {
     <div>
       <Navbar />
       <div className="m-12">
-        <PageTitle title="Services" />
+        <PageTitle title="Builds" />
         <PageContent />
       </div>
     </div>
