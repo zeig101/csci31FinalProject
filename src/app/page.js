@@ -19,10 +19,10 @@ export default async function Home() {
       <Navbar />
       <div className="m-12">
         <PageTitle title="Home" />
-        <PageContent content="This website contains record of my existing computer builds, as well as my opinions on different hardware options. Below you can see a preview of some of my builds."/>
+        <PageContent content="This website contains record of my existing computer builds, as well as my opinions on different hardware options. Below you can see a preview of some of my builds." />
         <div className="flex gap-6 my-6 flex-wrap">
           {cards.map((card, idx) => (
-            <Card key={idx} title={card.title} subtitle={card.subtitle} description={card.description} img={card.img}/>
+            <Card key={idx} title={card.title} subtitle={card.subtitle} description={card.description} img={card.img} />
           ))}
         </div>
       </div>

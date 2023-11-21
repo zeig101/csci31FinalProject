@@ -9,9 +9,11 @@ export default function About() {
       <Navbar />
       <div className="m-12">
         <PageTitle title="About" />
-        <PageContent content="I like to build computers, and have opinions on the matter to share. This website will give you a look at computers I've built already, 
+        <PageContent
+          content="I like to build computers, and have opinions on the matter to share. This website will give you a look at computers I've built already, 
         plans for future builds that may or may not happen, 
-        and an opinions page where I post my opinions on past, current, and upcoming hardware and the companies that make it."/>
+        and an opinions page where I post my opinions on past, current, and upcoming hardware and the companies that make it."
+        />
       </div>
     </div>
   )
