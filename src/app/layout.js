@@ -1,6 +1,9 @@
 import { Inter } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/react'
+import { Theme } from '@radix-ui/themes'
+
 import './globals.css'
+import '@radix-ui/themes/styles.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -12,7 +15,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-slate-600`}>{children}</body>
+      <Theme>
+        <body className={`${inter.className} bg-slate-600`}>{children}</body>
+      </Theme>
+      <Analytics />
     </html>
   )
 }
