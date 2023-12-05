@@ -22,23 +22,23 @@ export default function CardForm() {
   return (
     <form action={createCard} className="p-8 bg-slate-800 text-gray-300 mt-4 rounded-lg">
       <Field>
-        <Label label="title" />
+        <Label label="Build Name" />
         <Input id="title" name="title" />
       </Field>
       <Field>
-        <Label label="subtitle" />
+        <Label label="Price Range" />
         <Input id="subtitle" name="subtitle" />
       </Field>
       <Field>
-        <Label label="image" />
+        <Label label="Image" />
         <Input id="image" name="image" />
       </Field>
       <Field>
-        <Label label="description" />
+        <Label label="Details" />
         <Input id="description" name="description" />
       </Field>
-      <div className="mt-4 flex justify-end">
-        <Button type="submit">Add Card</Button>
+      <div className="mt-4 flex justify-end ">
+        <Button type="submit" >Add Build</Button>
       </div>
     </form>
   )
