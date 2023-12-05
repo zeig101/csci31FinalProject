@@ -4,6 +4,7 @@ import PageTitle from '../components/PageTitle'
 import PageContent from '../components/PageContent'
 import MyTable from '../components/MyTable'
 import Footer from '../components/Footer'
+import Card from '../components/Card'
 import { findCards } from '../utils/supabase-client'
 
 const cardTableColumns = [

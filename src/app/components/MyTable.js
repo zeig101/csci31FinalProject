@@ -33,7 +33,7 @@ export default function MyTable({ columns = defaultColumns, records = defaultRec
     <Table.Root>
       <Table.Header>
         <Table.Row>
-          {columns.map((column) => (
+          {columns.map((column, idx) => (
             <Table.ColumnHeaderCell key={idx}>{column.title}</Table.ColumnHeaderCell>
           ))}
         </Table.Row>
