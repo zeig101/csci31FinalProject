@@ -23,7 +23,7 @@ const defaultRecords = [
   {
     title: 'Test Entry',
     subtitle: 'Test Description',
-    img: 'Test Entry',
+    img: '',
     description: 'Test Details',
   },
 ]
