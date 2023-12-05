@@ -6,7 +6,7 @@ const menuItems = [
     href: '/',
   },
   {
-    title: 'More About',
+    title: 'About',
     href: '/about',
   },
   {
@@ -27,12 +27,12 @@ export default function Navbar() {
   return (
     <div
       className="flex justify-between gap-6 m-12
-     text-slate-300 items-center"
+     text-gray-300 items-center"
     >
-      <AcademicCapIcon className="h-12 w-12 text-white-500" />
+      <AcademicCapIcon className="h-12 w-12 text-gray-300" />
       <div className="flex gap-4">
         {menuItems.map((item, index) => (
-          <a key={index} href={item.href} className="px-4 py-2 bg-slate-500 shadow-md rounded-md">
+          <a key={index} href={item.href} className="px-4 py-2 bg-slate-800 shadow-md rounded-md">
             {item.title}
           </a>
         ))}

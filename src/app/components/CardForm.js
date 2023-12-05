@@ -20,7 +20,7 @@ async function createCard(formData) {
 
 export default function CardForm() {
   return (
-    <form action={createCard} className="p-8 bg-slate-500 mt-4 rounded-lg">
+    <form action={createCard} className="p-8 bg-slate-800 text-gray-300 mt-4 rounded-lg">
       <Field>
         <Label label="title" />
         <Input id="title" name="title" />
