@@ -8,12 +8,12 @@ import { insertCard } from '../utils/supabase-client'
 async function createCard(formData) {
   'use server'
   console.log('button is working')
-  const title = formData.get('title')
-  const subtitle = formData.get('subtitle')
-  const img = formData.get('img')
+  const title       = formData.get('title')
+  const subtitle    = formData.get('subtitle')
+  const img         = formData.get('img')
   const description = formData.get('description')
   insertCard({ title, subtitle, img, description })
-  redirect('/')
+  redirect('/services')
   // get each field out of formData
   // call supabase-client insertCard
 }

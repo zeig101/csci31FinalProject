@@ -17,12 +17,9 @@ export default async function Home() {
       <Navbar />
       <div className="m-12">
         <PageTitle title="Home" />
-        <PageContent content="This website contains record of my existing computer builds, plans for future builds, and other related content. Below you can see a preview of some of my builds." />
-        <div className="flex gap-6 my-6 flex-wrap">
-          {cards.map((card, idx) => (
-            <Card key={idx} title={card.title} subtitle={card.subtitle} description={card.description} img={card.img} />
-          ))}
-        </div>
+        <PageContent content="This website contains record of my existing computer builds, plans for future builds, and other related content. Below you can see a preview of some of my builds.
+        There's not much to loook at here, simply because everything else is handled on other pages. I do my best to explain terms that someone might not know, but all this technobabble has
+        really turned into second nature for me, so I may think something is simple enough that someone gets it regardless when they really don't. I apologize in advance." />
       </div>
       <Footer />
     </div>
