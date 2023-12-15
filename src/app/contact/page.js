@@ -23,9 +23,9 @@ export default function About() {
       </div>
       <div className="flex m-12 bg-slate-800 rounded-md justify-left text-gray-300">
       <div className='flex m-6'>
-      Also, Intel cpus are not good for gaming, price to performance wise. Intel's current top offering, the i9 14900K is $576.66 at the moment, on sale from $649.99. The AMD top offering, the Ryzen 7 7800X3D is $350.56, on sale 
+      Also, Intel cpus are not good for gaming, price to performance wise. Intel&apos;s current top offering, the i9 14900K is $576.66 at the moment, on sale from $649.99. The AMD top offering, the Ryzen 7 7800X3D is $350.56, on sale 
       from $499.00. The performance difference between the two processors is a wash, as the Intel offering outperforms slightly in some cases, but fails slightly in others. The major difference in how they accomplish this performance - 
-      The i9 14900k carries a TDP (Thermal Design Power) of 253W (watts), while the 7800X3D has a TDP of 120W. Accoding to TechPowerUp's testing, the 14900k draws around 144W average at stock configuration, while the 7800X3D sits at 49W
+      The i9 14900k carries a TDP (Thermal Design Power) of 253W (watts), while the 7800X3D has a TDP of 120W. Accoding to TechPowerUp&apos;s testing, the 14900k draws around 144W average at stock configuration, while the 7800X3D sits at 49W
       average during testing, with a peak draw of 60W. This difference in power consumption marks a significant saving over a larger period of time, as well as the lower thermal design power means the 7800X3D is easier and cheaper
       to keep cool.
       </div>
