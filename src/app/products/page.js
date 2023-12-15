@@ -13,13 +13,15 @@ export default function About() {
         <PageContent content="Here, you will be able to see my plans for future builds!" />
       </div>
       <div className="flex m-12 bg-slate-800 rounded-md justify-left text-gray-300">
-      <div className='flex m-6'>
-      <strong>What I&apos;m working on now:</strong>
-      <br />I&apos;m currently working on a special project I&apos;ve been considering for a long while. I&apos;ve gotten my hands on a non-functioning
-      Nintendo 64 console, and an Asrock STX form factor motherboard. Paired with an Athlong 3000g processor from AMD, that gives me a 
-      small package with plenty of power to run emulators for everything from the N64/PS2 era and backwards, and even some PS3 titles.
-      I&apos;m planning on posting documentation of the process and build on Youtube once I&apos;m finished all the prep work.
-      </div>
+        <div className="flex m-6">
+          <strong>What I&apos;m working on now:</strong>
+          <br />
+          I&apos;m currently working on a special project I&apos;ve been considering for a long while. I&apos;ve gotten
+          my hands on a non-functioning Nintendo 64 console, and an Asrock STX form factor motherboard. Paired with an
+          Athlong 3000g processor from AMD, that gives me a small package with plenty of power to run emulators for
+          everything from the N64/PS2 era and backwards, and even some PS3 titles. I&apos;m planning on posting
+          documentation of the process and build on Youtube once I&apos;m finished all the prep work.
+        </div>
       </div>
       <Footer />
     </div>

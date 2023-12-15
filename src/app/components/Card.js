@@ -1,6 +1,4 @@
 export default function Card({
-
-
   title = 'Sample Title',
   subtitle = 'Sample Subtitle',
   description = 'Sample Text',
