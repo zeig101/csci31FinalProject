@@ -18,7 +18,7 @@ export default function About() {
       </div>
       <div className="flex m-12 bg-slate-800 rounded-md justify-left text-gray-300">
       <div className='flex m-6'>
-      Seriously, unless you're getting the xx80 or xx90 card, or doing something really specific, don't get Nvidia. The 4080 is a rough pick too, because the AMD RX 7900 XTX offers extremely similar performance for often less money.      
+      Seriously, unless you&apos;re getting the xx80 or xx90 card, or doing something really specific, don&apos;t get Nvidia. The 4080 is a rough pick too, because the AMD RX 7900 XTX offers extremely similar performance for often less money.      
       </div>
       </div>
       <div className="flex m-12 bg-slate-800 rounded-md justify-left text-gray-300">
